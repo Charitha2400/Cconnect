@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/FSD_Project/',
+  base: '/Cconnect/',
   plugins: [react()],
   server: {
     host: true,                 // 👈 REQUIRED for external access
