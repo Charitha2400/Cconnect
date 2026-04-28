@@ -1,0 +1,8 @@
+[build]
+  base = "."
+  publish = "frontend/dist"
+  command = "cd frontend && npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  VITE_API_URL = "https://your-backend-url.com/api"
